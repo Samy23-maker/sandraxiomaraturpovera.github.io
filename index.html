@@ -33,6 +33,7 @@
       border-radius: 12px;
       margin-bottom: 25px;
       box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+      transition: background 0.3s ease;
       text-align: left;
     }
     section:hover {
@@ -83,22 +84,18 @@
       font-size: 1.1rem;
       line-height: 1.5;
     }
-    .photos {
+    .profile-images {
       display: flex;
       flex-direction: column;
       gap: 20px;
       align-items: center;
-      margin: 30px 0;
+      margin: 20px 0;
     }
-    .photos img {
-      width: 90%;
-      max-width: 320px;
-      border-radius: 20px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
-      transition: transform 0.3s ease;
-    }
-    .photos img:hover {
-      transform: scale(1.03);
+    .profile-images img {
+      width: 180px;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     }
     .btn-instagram {
       display: inline-block;
@@ -120,13 +117,11 @@
   </style>
 </head>
 <body>
-
   <h1>Sandra Xiomara Turpo Vera</h1>
 
-  <!-- FOTOS -->
-  <div class="photos">
-    <img src="WhatsApp Image 2025-05-29 at 4.15.57 PM.jpeg" alt="Sandra Xiomara Turpo Vera 1">
-    <img src="WhatsApp Image 2025-05-29 at 4.16.12 PM.jpeg" alt="Sandra Xiomara Turpo Vera 2">
+  <div class="profile-images">
+    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD...tu primer base64 aquí..." alt="Foto 1 de Sandra" />
+    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD...tu segundo base64 aquí..." alt="Foto 2 de Sandra" />
   </div>
 
   <section>
@@ -162,13 +157,12 @@
     <div class="contact-item">Correo: <a href="mailto:sandraxioomaraturve@gmail.com">sandraxioomaraturve@gmail.com</a></div>
     <div class="contact-item">Instagram: <a href="https://instagram.com/xiomaraturpovera" target="_blank">@xiomaraturpovera</a></div>
     <div class="contact-item">Facebook: <a href="https://facebook.com/sandra.xiomara.turpo.vera" target="_blank">Sandra Xiomara Turpo Vera</a></div>
-    <a class="btn-instagram" href="https://instagram.com/xiomaraturpovera" target="_blank" rel="noopener noreferrer">Visita mi Instagram</a>
+    <a class="btn-instagram" href="https://instagram.com/xiomaraturpovera" target="_blank">Visita mi Instagram</a>
   </section>
 
   <section>
     <h2>Pasatiempos</h2>
     <p>Natación, vóley, baile, gamer, entrenar, viajar</p>
   </section>
-
 </body>
 </html>
