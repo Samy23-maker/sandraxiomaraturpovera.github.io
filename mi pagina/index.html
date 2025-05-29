@@ -83,23 +83,19 @@
       font-size: 1.1rem;
       line-height: 1.5;
     }
-    /* Foto circular */
-    .profile-photo {
-      width: 160px;
-      height: 160px;
-      background: #ffdd59;
-      border-radius: 50%;
-      margin: 0 auto 25px auto;
+    .profile-images {
       display: flex;
+      flex-direction: column;
+      gap: 20px;
       align-items: center;
-      justify-content: center;
-      font-size: 3rem;
-      color: #6a11cb;
-      font-weight: 700;
-      box-shadow: 0 0 15px rgba(255, 221, 89, 0.8);
-      user-select: none;
+      margin: 20px 0;
     }
-    /* Botón Instagram */
+    .profile-images img {
+      width: 180px;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
     .btn-instagram {
       display: inline-block;
       background: #e4405f;
@@ -117,38 +113,15 @@
     .btn-instagram:hover {
       background: #c02847;
     }
-    @media (max-width: 480px) {
-      body {
-        margin: 20px;
-        padding: 20px;
-      }
-      h1 {
-        font-size: 2rem;
-      }
-      h2 {
-        font-size: 1.4rem;
-      }
-      ul li {
-        font-size: 1rem;
-        padding: 6px 12px;
-      }
-      .contact-item, p {
-        font-size: 1rem;
-      }
-      .profile-photo {
-        width: 120px;
-        height: 120px;
-        font-size: 2.2rem;
-      }
-    }
   </style>
 </head>
 <body>
-  <div class="profile-photo" aria-label="Foto de perfil">
-    SX
-  </div>
-
   <h1>Sandra Xiomara Turpo Vera</h1>
+
+  <div class="profile-images">
+    <img src="WhatsApp Image 2025-05-29 at 4.15.57 PM.jpeg" alt="Foto 1 de Sandra Xiomara" />
+    <img src="WhatsApp Image 2025-05-29 at 4.16.12 PM.jpeg" alt="Foto 2 de Sandra Xiomara" />
+  </div>
 
   <section>
     <h2>Sobre mí</h2>
@@ -183,7 +156,7 @@
     <div class="contact-item">Correo: <a href="mailto:sandraxioomaraturve@gmail.com">sandraxioomaraturve@gmail.com</a></div>
     <div class="contact-item">Instagram: <a href="https://instagram.com/xiomaraturpovera" target="_blank">@xiomaraturpovera</a></div>
     <div class="contact-item">Facebook: <a href="https://facebook.com/sandra.xiomara.turpo.vera" target="_blank">Sandra Xiomara Turpo Vera</a></div>
-    <a class="btn-instagram" href="https://instagram.com/xiomaraturpovera" target="_blank" rel="noopener noreferrer">Visita mi Instagram</a>
+    <a class="btn-instagram" href="https://instagram.com/xiomaraturpovera" target="_blank">Visita mi Instagram</a>
   </section>
 
   <section>
